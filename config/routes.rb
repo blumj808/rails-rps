@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-get("/rock", {:controller => "rocks", :action => "play_rock"})
+get("/rock", {:controller => "rock", :action => "play_rock"})
 
-get("/paper", {:controller => "papers", :action => "play_paper"})
+get("/paper", {:controller => "paper", :action => "play_paper"})
 
-get("/scissors", {:controller => "scissorss", :action => "play_scissors"})
+get("/scissors", {:controller => "scissors", :action => "play_scissors"})
 
-get("/", {:controller => "scissorss", :action => "rule"})
+get("/", {:controller => "homepage", :action => "rules"})
 end

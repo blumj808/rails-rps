@@ -1,4 +1,5 @@
 class PaperController < ApplicationController
+  def play_paper
   moves = ["rock", "paper", "scissors"]
 
   @comp_move = moves.sample
