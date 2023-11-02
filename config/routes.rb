@@ -5,5 +5,7 @@ get("/paper", {:controller => "paper", :action => "play_paper"})
 
 get("/scissors", {:controller => "scissors", :action => "play_scissors"})
 
-get("/", {:controller => "homepage", :action => "rules"})
+get("/", {:controller => "homepage", :action => "homepage"})
+
+get("/rules", {:controller => "homepage", :action => "homepage"})
 end

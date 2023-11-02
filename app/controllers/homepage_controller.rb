@@ -1,5 +1,5 @@
 class HomepageController < ApplicationController
-  def rule
+  def homepage
     render({ :template => "layouts/homepage" })
   end   
 end 
